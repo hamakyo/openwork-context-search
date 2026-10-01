@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "OpenWork Context Search",
+  "version": "1.0.0",
+  "description": "Search selected text on OpenWork from the Chrome context menu.",
+  "permissions": ["contextMenus"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
